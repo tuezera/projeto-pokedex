@@ -1,0 +1,41 @@
+@media (max-width: 884px){
+    body{
+        font-size: 12px;
+    }
+    
+    .pokedex{
+        padding: 30px 0;
+        flex-direction: column;
+    }
+
+    .cartao-principal{
+        max-width: 300px;
+    }
+
+    .cartao-principal .cartao-imagem{
+        width: 200px;
+        height: 200px;
+    }
+
+    .cartao-principal .cartao-info{
+        padding: 60px 30px 30px;
+        margin-top: -30px;
+    }
+
+    .listagem{
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .listagem ul{
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .listagem .pokemon{
+        width: 140px;
+        border-radius: 30px;
+    }
+
+}
