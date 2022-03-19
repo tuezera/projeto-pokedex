@@ -1,6 +1,12 @@
 .listagem{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 300vw;
+    max-height: 57vh;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.listagem::-webkit-scrollbar{
+    width: 5px;
 }
 
 .listagem .pokemon{
@@ -12,8 +18,8 @@
     color: #fff;
     padding: 10px 5px;
     cursor: pointer;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
     min-width: 70px;
     box-shadow: rgba(100,100,111,0.2);
     transition: 0.15s ease-in-out;
@@ -34,4 +40,10 @@
 
 .listagem .pokemon.ativo{
     background-color: #fa6668;
+}
+
+.listagem .regiao h1{
+    text-align: center;
+    font-size: 40pt;
+    margin: 3px 0px;
 }
