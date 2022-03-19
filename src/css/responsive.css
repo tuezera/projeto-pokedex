@@ -9,10 +9,11 @@
     }
 
     .cartao-principal{
-        max-width: 300px;
+        max-width: 90vw;
+        margin: auto;
     }
 
-    .cartao-principal .cartao-imagem{
+    .cartao-principal .cartao-imagem img{
         width: 200px;
         height: 200px;
     }
@@ -23,19 +24,28 @@
     }
 
     .listagem{
-        max-width: 300px;
+        max-width: 90vw;
         flex-direction: column;
+        overflow-y: visible;
+        margin: auto;
     }
 
-    .listagem ul{
+    .listagem h1{
+        text-align: center;
+        max-width: 80vw;
+    }
+
+    .listagem .regiao ul{
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
+        margin: auto;
     }
 
     .listagem .pokemon{
         width: 140px;
         border-radius: 30px;
+        margin: auto;
     }
 
 }
