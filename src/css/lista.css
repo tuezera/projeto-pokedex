@@ -1,6 +1,6 @@
 .listagem{
-    max-width: 300vw;
-    max-height: 57vh;
+    max-width: 100vw;
+    max-height: 55vh;
     overflow-y: scroll;
     padding: 20px;
 }

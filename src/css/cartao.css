@@ -32,8 +32,8 @@
 }
 
 .cartao-principal .cartao-imagem{
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .cartao-principal img{
@@ -106,5 +106,5 @@
 }
 
 .tipo-lutador{
-    background-color: brown;
+    background-color: #a52a2a;
 }
