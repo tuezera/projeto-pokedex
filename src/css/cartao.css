@@ -34,6 +34,7 @@
 .cartao-principal .cartao-imagem{
     max-width: 100vw;
     max-height: 100vh;
+    padding-left: 1vw;
 }
 
 .cartao-principal img{
